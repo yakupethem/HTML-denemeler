@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="html eğitimleri" />
+    <meta name="author" content="yakocan40" />
+    <meta name="keywords"content="html,css,javascript" />
+
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <link rel="shortcut icon" href="browser-icon.ico" />
+
+    <title>İlk HTML Başlığı</title>
+
+    <style>
+        #div_id_1{border:5px solid grey;height:20px;margin-bottom:5px}
+        #div_id_2{border:2px solid red;height:50px;text-align:center;border-collapse:collapse}
+        .class1{border:5px solid green;height:20px;margin-top:10px}
+        .class2{border:2px solid blue;height:20px}
+        .class_img{height:50px}
+        .class-img2{height:100px}
+
+        /*  css  yorum satırı */
+        
+    </style>
+</head>
+<body>
+
+    <a name="sayfabasi"></a>
+    <!--yorum satırı-->
+
+    <h1 style="color:darkred;text-align:center">başlık1</h1>
+    <h2 style="background-color:aqua;text-align:right">başlık2</h2>
+    <h3 style="color:chartreuse;text-align:end">başlık3</h3>
+    <h4>başlık4</h4>
+    <h5>başlık5</h5>
+    <h6>başlık6</h6>
+
+    <!--paragraf elementleri-->
+    yakup<br />
+    ethem
+
+    <p>
+        yakup
+        ethem
+    </p>
+    <pre>yakup 
+ethem
+        </pre>
+
+    <header style="border:3px solid grey;font:bold;width:100%">
+        header etiketi
+
+    </header>
+
+    <div style="border:1px solid red;font:bold;width:50%;height:300px">
+        <h1>div başlığı</h1>
+        <p>div paragrafı</p>
+        <div style="border:solid blue 3px">
+            <h2>div içinde div başlığı</h2>
+        </div>
+    </div>
+
+
+    <footer style="border:4px solid green;width:100%;color:cornflowerblue;
+font:400;font:bold;text-align:center">
+        Copyright &copy;
+    </footer>
+
+    <p><b>kalın yazı</b></p>
+    <p><strong>kalın yazı</strong></p>
+
+    <p><i>italik</i></p>
+    <p><em>emphesize</em></p>
+
+    <p><mark>mark yazı</mark></p>
+    <p><small>small</small></p>
+
+    <p><del>üstü çizili</del></p>
+    <p><ins>altı çizili</ins></p>
+
+    <p>H<sub>2</sub>O</p>
+    <p>4<sup>2</sup>=16</p>
+
+    <!-- Quatatino ve Citiation-->
+
+    <q>ben sporcunun zeki, çevil, ve ahlaklısını severim</q>
+    <blockquote style="text-align:justify">
+        burada uzun alıntı yazılır.justify kenarları düzleştirir<br />
+        Air Force One ABD başkanlarını taşıyan başkanlık uçağıdır. Mavi-beyaz renkli Boeing 747 modelidir. Air Force One ABD başkanı'nın içinde bulunduğu, hava kuvvetlerine ait hava aracının kodudur. Başkanlık uçağı, Amerikan başkanlığı ve gücünü önemli bir sembolüdür. Air Force One'ın kuyruk numarası 28000 ve 29000 olan iki jet uçaktan başkanın bindiğine verilen isimdir. ABD'de, devlet başkanı, tüm silahlı kuvvetlerin başkomutanıdır. Bu sebepten dolayı başkanın adımını attığı her askeri araç call sign (çağrı işareti) değiştirir ve bağlı olduğu kuvvetin isminin ardına one eklenerek başkomutanın araçta olduğu vurgulanır.
+    </blockquote>
+
+    <p><abbr title="Türkiye Büyük Millet Meclisi">TBMM</abbr>, 1920 yılında açıldı</p>
+
+    <address>çiğdem mahallesi <br />1570.caddde<br />asemeksitesi</address>
+
+    <p><cite>kürk mantolu madonna</cite>, Sabahattin Ali</p>
+
+    <bdo dir="rtl">sağdan sola yazım</bdo>
+
+    <!--Anchor-->
+    <br />
+    <br />
+    <a href="http://www.youtube.com">youtube</a>
+    <br />
+    <a href="#sayfabasi">sayfa başına dön</a>
+    <br />
+    <a href="Turkey.ico" target="_blank">TR</a>
+    <br />
+    <!--mail göndermek için-->
+    <a href="mailto:yakocan40@gmail.com">Mail gönder</a>
+    <br />
+    <!--span elementi-->
+
+    <p>bu yazının <span style="color:red;font-size:32px">bu kısmı</span> kırmızıdır</p>
+    <br />
+    <!--unordered list    -->
+
+    <ul>
+        <li style="list-style-type:circle"><a href="http://www.google.com" target="_blank">google</a></li>
+        <li style="list-style-type:square"><a href="http://www.youtube.com">youtube</a></li>
+        <li>yandex</li>
+        <li>msn</li>
+
+    </ul>
+    <ol type="i">
+        <li><a href="http://www.google.com" target="_blank">google</a></li>
+        <li><a href="http://www.youtube.com">youtube</a></li>
+        <li>yandex</li>
+        <li>msn</li>
+    </ol>
+    <br />
+    <br />
+    <!--table-->
+
+    <style>
+        table, tr, td, th {
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse
+        }
+
+        th {
+            background-color: yellowgreen;
+            font-size: 20px
+        }
+
+        tr {
+            background-color: burlywood
+        }
+    </style>
+
+    <table width="500">
+        <caption>kişiler</caption>
+        <thead>
+            <tr>
+                <th>isim</th>
+                <th>meslek</th>
+                <th>yaş</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ali</td>
+                <td>polis</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>veli</td>
+                <td>mühendis</td>
+                <td>30</td>
+
+            </tr>
+            <tr>
+                <td>berna</td>
+                <td>doktor</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+
+    <div id="div_id_1">id_1</div>
+    <div id="div_id_2">
+        id_2 <img src="html-5-icon.png" style="height:50px" alt="Alternate Text" />
+        div yazısı html resmi
+    </div>
+    <div class="class1">klas_1</div>
+    <div class="class2">klas_2</div>
+    <div class="class1">klas3_1</div>
+
+    <br />
+    <br />
+
+    <img class="class_img" src="html-5-icon.png" alt="html5" /><br />
+    <img class="class-img2" src="html-icon.png" alt="html" /><br />
+    <img class="class_img" src="Web-HTML-icon.png" alt="web-html" /><br />
+    <br />
+    <img style="height:100px" src="osmanlı.png" alt="osmanlı" />
+    <audio controls="controls">
+        <source src="PLEVNE.mp3" type="audio/mp3" />
+        <source src="PLEVNE.ogg" type="audio/ogg" />
+    </audio>
+    <br />
+    <br />
+
+    <object data="anp-kış lastiği.pdf" height="1000" width="1000"></object>
+    <embed src="anp-kombi.pdf" width="500" height="500" />
+    <!--<object data="anp-kış lastiği.docx"></object    böyle olursa download eder>-->
+    <br />
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EBQJvSGuEFc"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+
+    <br />
+    <embed src="https://www.youtube.com/embed/iJhPZzm6jhg" width="600" height="300" />
+    <br />
+    <br />
+
+    <form action="#" method="post">
+
+        <label for="username">kullanıcı adı</label>
+        <input id="username" type="text" name="username" /><br />
+        <label for="password">şifre</label>
+        <input id="Password" type="password" name="password" /><br />
+        <label>email:</label>
+        <input type="email" name="email" id="email" /><br />
+        <label>telefon:</label>
+        <input type="tel" name="tel" id="tel" pattern="05[0-9]{2}[0-9]{7}" value="05" /><br />
+        <input type="search" name="search" /><br /><br />
+
+        <label>date</label><br />
+        <input type="date" name="date" /><br />
+
+        <label>datetime</label><br />
+        <input type="datetime" name="datetime" /><br />
+
+        <label>datelocal</label><br />
+        <input type="datetime-local" name="datelocal" /><br />
+
+        <label>month</label><br />
+        <input type="month" name="month" /><br />
+
+        <label>week</label><br />
+        <input type="week" name="week" /><br />
+
+        <input type="file" name="file" id="file" /><br />
+        <input type="url" /><br />
+        <input type="image" src="html-5-icon.png" width="50" height="50" /><br />
+        <input type="color" /><br />
+        <br /><br /><br />
+        <button>kaydet</button>
+    </form>
+
+    <form action="/" method="post">
+        <p>hangi dili biliyorsunuz :</p>
+        <input type="checkbox" name="dil" id="ing" /><label for="ing">ingilizce</label><br />
+        <input type="checkbox" name="dil" id="alm" /><label for="alm">almanca</label><br />
+        <input type="checkbox" name="dil" id="fra" /><label>fransızca</label>
+        <br /><p>cinsiyetiniz:</p>
+        <br /><input type="radio" name="cinsiyet" id="erkek" value="erkek" /><label for="erkek">erkek</label>
+        <br /><input type="radio" name="cinsiyet" id="kadın" value="kadın" /><label for="kadın">kadın</label>
+        <br /><input type="range" min="0" max="50" id="range" />
+        <br /><label for="range">değer</label>
+        <br /><input type="submit" onclick="alert('basıldı')" /><input type="button" value="tıkla" onclick="alert('tıklandı')" />
+        <input type="reset" />
+    </form>
+    <form>
+        <br />
+        <select>
+            <option value="ing">inglizce</option>
+            <option value="alm" selected>almanca</option>
+            <option value="fra">fransızca</option>
+        </select>
+        <select>
+            <optgroup label="sözel dersler">
+                <option>tarih</option>
+                <option selected>edebiyat</option>
+            </optgroup>
+            <optgroup label="sayısal dersler">
+                <option>mat</option>
+                <option>fizik</option>
+            </optgroup>
+        </select><br />
+
+        <textarea cols="30" rows="10">buraya mesajınızı alınız</textarea>
+        <br />
+        <input list="diller" />
+        <datalist id="diller">
+            <option value="php" />
+            <option value="java" />
+            <option value="python" />
+
+        </datalist>
+
+    </form>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="a" value="50" /> + <input type="number" id="b" value="50" /> =
+        <output name="x" for="a b"></output>
+    </form><br /><br />
+
+    <div style="width:30%">
+        <form action="/" method="post">
+            <fieldset>
+                <legend>kişisel bilgiler</legend>
+                isim soyisim : <input type="text" /><br />
+                telefon : <input type="tel" /><br />
+                email : <input type="email" />
+            </fieldset>
+            <fieldset>
+                <legend>eğitim bilgisi</legend>
+                mezun olunan okul <input type="text" /><br />
+                mezuniyet derecesi <input type="number" /><br />
+            </fieldset>
+        </form>
+    </div><br /><br />
+
+    <form action="#" method="post">
+
+        <input type="text" value="input" readonly /><br />
+        <input type="text" placeholder="kullanıcı adı" autofocus size="10" /><br />
+        <input type="text" size="40" maxlength="15" value="doldurulması zorunu required" required /><br />
+
+        <input type="number" min="1" max="10" step="2" /><br />
+        <input type="file" multiple /><br />
+
+    </form>
+
+
+    <br /><br /><br />
+
+    <form action="#" method="post">
+        <br />
+        <input type="text" placeholder="text" /><br />
+        <input type="email" placeholder="email" /><br />
+        <input type="file" />
+
+
+
+
+        <input type="submit" name="name" value="kaydet" />
+        <input type="submit" name="name" value="save" formaction="##"
+               formmethod="delete" formnovalidate formenctype="multipart/form-data" />
+
+
+        <!--save e basınca formactino başka bir dosyaya kaydeder, formmethod başka şekilde sayfa çar,
+         formnovalidate girilen txti kontrol etmez, formenctype seçilen dosyayı
+         karşı sunucuya ulaştırır-->
+
+
+    </form><br /><br /><br />
+
+
+
+    <meter style="height:100px;width:300px" min="5" max="15" value="9" low="7" high="13"></meter>
+    <br />
+    <progress style="height:100px;width:300px;" max="10" value="2"></progress>
+    <br />
+    <details>
+        <summary>hakkımızda</summary>
+        <a href="#">vizyon</a><br />
+        <a href="#">misyon</a><br />
+        <a href="#">projeler</a><br />
+    </details><br />
+    <dialog open>dialog penceresi</dialog><br />
+    <figure style="width:20%;border:2px solid red">
+
+        <figcaption style="text-align:center">html logoları</figcaption>
+        <img style="width:100px" src="html-5-icon.png" alt="Alternate Text" />
+        <img style="width:100px" src="html-icon.png" alt="Alternate Text" />
+    </figure><br /><br /><br />
+    <ruby style="width:30%">
+        two<rt>tu</rt><rp>gösterilecek bişey yok</rp>
+    </ruby><br /><br />
+    <p>üniversite sınavı <time datetime="2021-03-10">10 mart 2012</time>  de yapılacak</p>
+    <br /><br />
+    <div style="border:2px solid red;width:200px;height:50%">
+        <p>html,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,java</p>
+    </div><br />
+    <div style="border:2px solid green;width:100%;height:auto">
+        <p>html,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,javahtml,css,java</p>
+    </div><br />
+
+    <br /><br /><br /><br />
+</body>
+</html>
